@@ -1,0 +1,55 @@
+<ion-view title="123 Fakename St. Toronto">
+	<ion-content>
+		<div class="address-details-header primary-color" style="display:inline-block; width:100%; text-align:center;">
+			<h2 class="title" style="display:inline-block; width:90%;color:white;">REAL ESTATE DICTIONARY</h2><i class="icon ion-plus-round" style="color:white;"></i>
+		</div>
+		
+		<div class="dictionary-content">
+			<div class="list list-inset search-div">
+				<label class="item item-input">
+					<input type="text"/><button class="button button-clear"><i class="icon ion-search"></i></button>
+				</label>
+			</div>
+
+			<div class="dictionary-index">
+				<ul class="dictionary-list" style="display:inline-flex;width:100%;justify-content:space-around;">
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+					<li>E</li>
+					<li>F</li>
+					<li>G</li>
+					<li>H</li>
+					<li>I</li>
+					<li>J</li>
+					<li>K</li>
+					<li>L</li>
+					<li>M</li>
+					<li>N</li>
+					<li>O</li>
+					<li>P</li>
+					<li>Q</li>
+					<li>R</li>
+					<li>S</li>
+					<li>T</li>
+					<li>U</li>
+					<li>V</li>
+					<li>X</li>
+					<li>Y</li>
+					<li>Z</li>
+				</ul>	
+			</div>
+
+			<div>
+				<div ng-repeat="letter in dictionary" class="list">
+					<h2 class="item item-divider">{{letter.letter}}</h2>	
+						<a class="item" ng-repeat="word in letter.words">
+							{{word.word}}
+							<p style="color: rgba(149,149,149,1);">{{word.definition}}</p>
+						</a>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

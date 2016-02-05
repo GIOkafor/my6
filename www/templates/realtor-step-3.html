@@ -1,0 +1,42 @@
+<ion-view view-title="You're Almost Done" hide-nav-bar="false" class="userAuth realtor-step-3">
+	<ion-content class="padding realtor-signup-step-3">
+		<img src="img/Icon_4StepNav_03.png" >
+		<ul id="navlist">
+			<li id="step1"><a ui-sref="home.realtor-step-1"></a></li>
+			<li id="step2"><a ui-sref="home.realtor-step-2"></a></li>
+			<li id="step3"><a ui-sref="home.realtor-step-3"></a></li>
+			<li id="step4"><a ui-sref="home.realtor-lastStep"></a></li>
+		</ul>
+		<form>
+			<h4>Company/Brokerage Logo</h4>	
+			<div class="item-input-inset" style="padding-left:0px;padding-right:0px;">
+				<label class="item item-input" style="margin-right:0px;width:75%;">
+					<input type="text" placeholder="URL">
+				</label>
+				<button class="button" style="width:25%;margin-bottom: 10px;">Upload</button>
+			</div>
+			
+			<div class="company-info">
+				<h4>Company/Brokerage Address</h4>
+				<input type="text" placeholder="Company/Brokerage Name" ng-model="user.companyName">
+				<input type="text" placeholder="Address" ng-model="user.address">
+				<input type="number" placeholder="Telephone" ng-model="user.telephone">
+				<span>
+					<select ng-options="c for c in countries" ng-model="user.companyCountry" style="flex:1;"><option value="" disabled selected>Country</option>
+					</select>
+					<select ng-options="p for p in canadaProvinces" ng-model="user.state" style="flex:1;margin-left:8px;"><option value="" disabled selected>Province/State</option></select>
+				</span>
+
+				<span>
+					<input type="text" ng-model="user.companyCity" placeholder="City">
+					<input type="text" placeholder="Postal Code/ Zip" ng-model="user.postalCode" style="margin-left:8px;">
+				</span>
+				
+
+				<input type="text" placeholder="Website URL" ng-model="user.webURL" style="width:100%;">
+				<input type="submit" class="button progress-button button-full" value="Continue" style="width:100%;" ng-click="addUser(user)" ui-sref="home.realtor-lastStep">
+			</div>
+		</form>
+	</ion-content>
+</ion-view>
+<!-- FORM INPUTS NEED WORK CSS-->

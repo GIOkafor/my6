@@ -1,0 +1,49 @@
+<ion-view hide-back-button="true">
+	<ion-content>
+		<div class="subsection-header primary-color">
+			<i class="icon button button-clear button-icon ion-chevron-left left" ng-click="goBack();"></i><h2>Detail</h2>
+		</div>
+
+		<div>
+			<h2 class="header">Personal Information</h2>
+			
+			<div id="image-row">
+				<img src="img/realtor_profile.jpg">
+
+				<span class="row1">
+					<input type="text" placeholder={{client.firstName}} disabled>
+					<input type="text" placeholder={{client.lastName}} disabled>
+				</span>
+
+				<span class="row2">
+					<input type="number" placeholder="Telephone">
+					<input type="number" placeholder="Telephone">
+				</span>
+			</div>
+
+			<input type="text" placeholder="Email">
+			<textarea rows="3" cols="30"></textarea>
+		</div>
+
+		<div class="property-information">
+			<h2 class="header">Property Information</h2>
+
+			<span class="row1">
+				<input type="text" placeholder="Address">	
+				<select>
+					<option selected disabled>Country</option>
+				</select>
+			</span>
+
+			<span class="row2">
+				<select>
+					<option selected disabled>Province/State</option>
+				</select>
+				<input type="text" placeholder="City">
+				<input type="text" placeholder="Postal Code/Zip">
+			</span>
+
+			<input type="text" placeholder="Property Photo URL">
+		</div>
+	</ion-content>
+</ion-view>

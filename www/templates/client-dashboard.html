@@ -1,0 +1,32 @@
+<ion-view class="clientDash" title="123 Fakename St. Toronto">
+	<!--
+	<ion-header-bar align-title="center">
+		<button class="button button-clear icon ion-navicon"></button>
+		<div class="title"><p style="font-size:14px;">Address:</p><p class="title" style="top:13.5px;">419 Avenue Toronto, Ontario{{client.address}}</p></div>
+		<button class="button button-clear icon ion-arrow-down-b"></button>
+	</ion-header-bar>
+	-->
+<ion-nav-buttons side="right">
+    <a style="color: #ffa801;" class="button button-icon icon ion-arrow-down-b"></a> 
+</ion-nav-buttons>
+
+	<ion-content>
+		<div class="address-details-header primary-color" style="display:inline-flex; width:100%; justify-content:center; align-items:center;">
+			<h2 class="title" style="display:inline-flex; justify-content:center; width:86%;color:white;">Home Owner's Feed</h2> <i class="button button-icon icon ion-plus-round" style="color:white; background-color:rgb(157, 157, 157);position:absolute;right:0px;"></i> 
+		</div>
+
+		<div class="content">
+			<ion-list>
+				<ion-item ng-repeat="message in messages" class="item-remove-animate">
+					<h2>{{message.name}}<p style="float:right;">{{message.date}}</p></h2>
+
+					<p>{{message.subject}}</p>
+					<p>{{message.message}}</p>
+
+					<ion-option-button class="progress-button" style="margin-right:2px;"><i class="icon ion-reply"></i></ion-option-button>
+					<ion-option-button class="progress-button" ng-click="deleteMessage(message)"><i class="icon ion-trash-a"></i></ion-option-button>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

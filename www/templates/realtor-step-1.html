@@ -1,0 +1,71 @@
+<ion-view view-title="CREATE A REALTOR ACCOUNT" hide-nav-bar="false" class="userAuth">
+	<ion-content class="padding">
+		<div class="image-nav">
+			<img src="img/Icon_4StepNav_01.png" usemap="#image-nav-map">
+			<ul id="navlist">
+				<li id="step1"><a ui-sref="home.realtor-step-1"></a></li>
+				<li id="step2"><a ui-sref="home.realtor-step-2"></a></li>
+				<li id="step3"><a ui-sref="home.realtor-step-3"></a></li>
+				<li id="step4"><a ui-sref="home.realtor-lastStep"></a></li>
+			</ul>
+		</div>
+		
+		<form ng-submit="addUser(user)" name="realtor-signup-form">
+
+			<h4>Account Information</h4>
+			<div class="list">	
+				<label class="item item-input">
+					<input type="text" placeholder="Email Address" ng-model="user.email" required>
+				</label>
+				<label class="item item-input">
+					<input type="password" placeholder="Password" ng-model="user.password" required>
+				</label>
+				<label class="item item-input">
+					<input type="password" placeholder="Confirm Password" ng-model="user.password2" required>
+				</label>
+			</div>
+
+			<h4>Personal Information</h4>
+				<div class="item item-input-inset" style="padding-bottom:0px;padding-top:0px;">
+					<label class="item-input" style="border-right: 1px solid #ddd;padding-left:5px;">
+						<input type="text" placeholder="First Name" ng-model="user.firstname" required>
+					</label>
+					<label class="item-input">
+						<input type="text" placeholder="Last Name" ng-model="user.lastname" required>
+					</label>
+				</div>
+				
+				<label class="item item-input">
+					<input type="number" placeholder="Primary Telephone" ng-model="user.primarytelephone" required>
+				</label>
+				<label class="item item-input">
+					<input type="number" placeholder="Mobile Telephone" ng-model="user.mobiletelephone">
+				</label>
+
+				<div style="display:inline-flex; width:100%;">
+					<label class="item item-input item-select" style="display:inline-flex;width:50%;height:46px;">
+						<select class="padding" style="position:absolute;left:15px;top:5px;padding-left:0px;padding-right:0px;" ng-model="user.country" ng-options="c for c in countries" required>
+							<option value="" selected disabled>Country</option>
+						</select>
+					</label>
+					
+					<label class="item item-input" style="margin-left: 10px">
+						<input type="text" placeholder="City" required>
+					</label>
+				</div>
+				<label class="item item-input item-select">
+					<span class="input label">Years of Industry Experience</span>
+					<select ng-model="user.yearsexperience">
+						<option ng-value="1" >1</option>
+						<option ng-value="5" >5</option>
+						<option ng-value="10" >10</option>
+						<option ng-value="20" >20</option>
+					</select>
+				</label>
+			</div>
+
+			<div style="display:inline-flex;justify-content:space-between;padding:5px;width:100%;"> 
+				<input type="submit" ui-sref="home.realtor-step-2" style="width:100%;" class="button progress-button" value="Submit" ng-click="addUser(user)">
+		</form>
+	</ion-content>
+</ion-view>

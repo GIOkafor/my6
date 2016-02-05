@@ -1,0 +1,41 @@
+/*
+    Theme: Red
+    Primary: #b72126
+    Secondary: #c53539
+    Text: #8a1c1e
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #8a1c1e; }
+hr.ThemeColor { border-color: #8a1c1e; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background: #c53539; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color: #c53539 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #b72126 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #b72126; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #8a1c1e; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color: #c53539 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color: #b72126; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background: #c53539; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #b72126; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color: #c53539; }
+
+.Dictionary .Selector a:hover { color: #b72126 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #8a1c1e;}
+.PopUp_Close span { color: #8a1c1e;}
+.PopUp_Close:hover { background-color: #8a1c1e;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #b72126 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background: #b72126 !important; color:#fff !important; border-color: #b72126; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #b72126 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #b72126 !important;}

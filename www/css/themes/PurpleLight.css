@@ -1,0 +1,41 @@
+/*
+    Theme: Purple (Light)
+    Primary: #a16fb0
+    Secondary: #a87fc8
+    Text: #6c509f
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #6c509f; }
+hr.ThemeColor { border-color: #6c509f; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background: #a87fc8; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color: #a87fc8 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #a16fb0 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #a16fb0; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #6c509f; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color: #a87fc8 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color: #a16fb0; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background: #a87fc8; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #a16fb0; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color: #a87fc8; }
+
+.Dictionary .Selector a:hover { color: #a16fb0 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #6c509f;}
+.PopUp_Close span { color: #6c509f;}
+.PopUp_Close:hover { background-color: #6c509f;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #a16fb0 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background: #a16fb0 !important; color:#fff !important; border-color: #a16fb0; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #a16fb0 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #a16fb0 !important;}

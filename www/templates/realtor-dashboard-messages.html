@@ -1,0 +1,26 @@
+<ion-view class="realtor-messages" title="982923847432">
+
+<ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-arrow-down-b primary-color"></a> 
+</ion-nav-buttons>
+
+	<ion-content>
+		<div class="section-header primary-color">
+			<h2 class="title">RECENT MESSAGES</h2> <i class="button button-icon icon ion-plus-round right"></i> 
+		</div>
+
+		<div class="content">
+			<ion-list>
+				<ion-item ng-repeat="message in messages" class="item-remove-animate">
+					<h2>{{message.name}}<p style="float:right;">{{message.date}}</p></h2>
+
+					<p>{{message.subject}}</p>
+					<p>{{message.message}}</p>
+
+					<ion-option-button class="Button progress-button" style="margin-right:2px;"><i class="icon ion-reply"></i></ion-option-button>
+					<ion-option-button class="Button progress-button" ng-click="deleteMessage(message)"><i class="icon ion-trash-a"></i></ion-option-button>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,41 @@
+/*
+    Theme: Red (Light)
+    Primary: #de5559
+    Secondary: #f66c70
+    Text: #b72126
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #b72126; }
+hr.ThemeColor { border-color: #b72126; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background: #f66c70; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color: #cf66c70 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #de5559 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #de5559; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #b72126; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color: #f66c70 !important; color:#fff !important;}
+.Button, .primary-color, .section-header{ background-color: #de5559; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background: #f66c70; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #de5559; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color: #f66c70; }
+
+.Dictionary .Selector a:hover { color: #de5559 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #b72126;}
+.PopUp_Close span { color: #b72126;}
+.PopUp_Close:hover { background-color: #b72126;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #de5559 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background: #c5585b !important; color:#fff !important; border-color: #de5559; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #de5559 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #de5559 !important;}

@@ -1,0 +1,65 @@
+<ion-view hide-nav-bar="false" view-title="LAST STEP" class="userAuth">
+	<ion-content class="padding realtor-signup-last-step">
+		<img src="img/Icon_4StepNav_04.png">
+
+		<ul id="navlist">
+			<li id="step1"><a ui-sref="home.realtor-step-1"></a></li>
+			<li id="step2"><a ui-sref="home.realtor-step-2"></a></li>
+			<li id="step3"><a ui-sref="home.realtor-step-3"></a></li>
+			<li id="step4"><a ui-sref="home.realtor-lastStep"></a></li>
+		</ul>
+
+		<form>
+			<div class="sub-type">	
+				<h4>Subscription Type</h4>	
+				<select>
+					<option value="" selected disabled>Select a Subscription Type</option>	
+				</select>
+			</div>
+
+			<div class="billing-info">
+				<h4>Billing Information</h4>
+				<input type="number" placeholder="Credit Card Number" maxlength="16">
+				<input type="text" placeholder="Name On Card">
+
+				<div class="card-expiry-info">
+					<label class="item item-input item-select" style="display:inline-flex;width:50%;height:40px;margin-right:10px;">
+						<select class="padding" style="position:absolute;left:15px;top:5px;padding-left:0px;padding-right:0px;" ng-options="m for m in months" ng-model="user.cardExpirationMonth">
+							<option value="" disabled selected>Expiration Month</option>
+						</select>
+					</label>
+
+					<label class="item item-input item-select" style="display:inline-flex;width:50%;height:40px;">
+						<select class="padding" style="position:absolute;left:15px;top:5px;padding-left:0px;padding-right:0px;" ng-options="y for y in years" ng-model="user.cardExpirationYear">
+							<option value="" disabled selected>Expiration Year</option>
+						</select>
+					</label>
+				</div>	
+
+			</div>
+
+			<div class="billing-address">
+				<h4>Billing Address</h4>
+				<input type="text" placeholder="Company/Brokerage Name">
+				<input type="text" placeholder="Address">
+				<input type="number" placeholder="Telephone">
+
+					<div class="location-info">
+						<span>
+							<input type="text" placeholder="Country">
+							<input type="text" placeholder="Province/State">
+						</span>
+						<span>
+							<input type="text" placeholder="City">
+							<input type="text" placeholder="Postal Code/Zip">
+						</span>
+					</div>
+				
+			</div> 
+			<span class="btm-buttons">
+				<input type="button" class="button skip-button" value="Skip" ui-sref="realtor-dashboard.messages">
+				<input type="button" class="button progress-button" value="Done" ui-sref="realtor-dashboard.messages">
+			</span>
+		</form>
+	</ion-content>
+</ion-view>

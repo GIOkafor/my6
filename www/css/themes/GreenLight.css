@@ -1,0 +1,41 @@
+/*
+    Theme: Green (Light)
+    Primary: #8abc59
+    Secondary: #a0c979
+    Text: #75b437
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #75b437; }
+hr.ThemeColor { border-color: #75b437; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background: #a0c979; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color: #a0c979 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #8abc59 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #8abc59; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #75b437; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color: #a0c979 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color: #8abc59; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background: #a0c979; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #8abc59; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color: #a0c979; }
+
+.Dictionary .Selector a:hover { color: #8abc59 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #75b437;}
+.PopUp_Close span { color: #75b437;}
+.PopUp_Close:hover { background-color: #75b437;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #8abc59 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background:#ffa801 !important; color:#fff !important; border-color: #8abc59; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #8abc59 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #8abc59 !important;}

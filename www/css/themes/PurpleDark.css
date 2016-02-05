@@ -1,0 +1,41 @@
+/*
+    Theme: Purple (Dark)
+    Primary: #332566
+    Secondary: #423476
+    Text: #2b1d4b
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #2b1d4b; }
+hr.ThemeColor { border-color: #2b1d4b; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background: #423476; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color: #423476 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #332566 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #332566; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #2b1d4b; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color: #423476 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color: #332566; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background: #423476; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #332566; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color: #423476; }
+
+.Dictionary .Selector a:hover { color: #332566 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #2b1d4b;}
+.PopUp_Close span { color: #2b1d4b;}
+.PopUp_Close:hover { background-color: #2b1d4b;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #332566 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background: #332566 !important; color:#fff !important; border-color: #332566; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #332566 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #332566 !important;}

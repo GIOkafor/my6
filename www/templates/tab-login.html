@@ -1,0 +1,15 @@
+<ion-view title="LOGIN" hide-nav-bar="false">
+	<ion-content class="userAuth login-page">
+		<form onsubmit="return AIM.submit(this, {'onStart':ValidateForm})">
+			<div class="list">
+			<label class="item item-input">
+				<input type="text" placeholder="Username" data-validation="Email"/>
+			</label>
+			<label class="item item-input">
+				<input type="password" placeholder="Password">
+			</label>
+			<button class="button button-full progress-button" ui-sref="dashboard.client-dashboard">Login</button>
+		</form>
+		</div><a href="#/forgot-password">Forgot Password</a>
+	</ion-content>
+</ion-view>

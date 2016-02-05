@@ -1,0 +1,21 @@
+<ion-view>
+	<ion-content>
+		<ion-nav-view>
+			<div class="subsection-header primary-color">
+				<i class="icon button button-icon ion-chevron-left left" ng-click="goBack();"></i><h2>{{todo.name}}</h2>
+				<i class="button button-clear icon ion-plus-round right" ng-click="isCollapsed=!isCollapsed"></i>
+					<div uib-collapse="isCollapsed" class="hideable">
+						<input type="text" placeholder="Enter new name here" ng-model="name">
+						<i class="button-icon icon ion-checkmark-round" ng-click="updateName(name);isCollapsed=!isCollapsed;"></i>
+						<i class="button-icon icon ion-close-round"></i>
+					</div>
+			</div>
+
+			<ion-list>
+				<ion-item ng-repeat="item in todo.items">
+					{{item}}
+				</ion-item>
+			</ion-list>
+		</ion-nav-view>
+	</ion-content>
+</ion-view>

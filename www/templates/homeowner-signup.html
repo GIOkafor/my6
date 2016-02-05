@@ -1,0 +1,36 @@
+<ion-view hide-nav-bar="false" view-title="Create A homeowner Account" class="padding userAuth">
+	<ion-content class="client-step1 padding">
+		<img src="img/Icon_2StepNav_01.png" style="display:block;width:30%;">
+
+		<ul id="navlist">
+			<li id="clientstep1"><a ui-sref="home.homeowner-signup"></a></li>
+			<li id="clientstep2"><a ui-sref="home.client-step2"></a></li>
+		</ul>
+
+		<div class="activation-code">
+			<h4>Activation Code</h4>
+				<div class="list list-inset act-code">
+					<label class="item-input">
+						<input type="text" placeholder="Your Realtor's Activation Code">
+						<i class="icon ion-help-circled placeholder-icon"></i>
+					</label>
+				</div>
+		</div>
+
+		<div class="account-info">
+			<h4>Account Information</h4>
+			<div class="inline-select" style="justify-content:space-between;margin-bottom:5px;">
+			<input type="text" placeholder="First Name">
+			<input type="text" placeholder="Last Name">
+			</div>
+			<input class="full-width-input" type="text" placeholder="Email Address">
+			<input class="full-width-input" type="password" placeholder="Password">
+			<input class="full-width-input" type="password" placeholder="Confirm Password">
+		</div>
+
+		<span class="btm-buttons">
+			<input type="button" class="button skip-button" value="Skip" ui-sref="home.client-step1">
+			<input type="button" class="button progress-button" value="Done" ui-sref="home.client-step1">
+		</span>
+	</ion-content>
+</ion-view>

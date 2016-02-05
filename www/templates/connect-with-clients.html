@@ -1,0 +1,31 @@
+<ion-view>
+	<ion-content class="connect-with-clients">
+		<div class="section-header primary-color">
+			<h2>CONNECT WITH CLIENTS</h2>
+		</div>
+
+		<div class="select-clients">
+			<span class="header">
+				<h2>Select Clients</h2><i class="icon button button-clear button-icon ion-chevron-right primary-color" ui-sref="realtor-dashboard.select-clients"></i>	
+			</span>
+
+			<div class="card">
+				<div class="item item-text-wrap">
+					Client1, client2...
+				</div>
+			</div>
+		</div>
+
+		<div class="invitation-message">
+			<h2 class="header">Invitation Message</h2>
+			<textarea rows="15" placeholder="Custom Message" ng-disabled="dmsg"></textarea>
+			<input type="checkbox" ng-model="dmsg">Use Default Message
+			<button class="primary-color Button">Send Invitation</button>	
+		</div>
+		
+
+		<div>
+			<h2 class="header">View Invitation Status Report</h2>	
+		</div>
+	</ion-content>
+</ion-view>

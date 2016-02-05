@@ -1,0 +1,16 @@
+<ion-view title="123 Fakename St. Toronto">
+	<ion-content class="to-do-list">
+		
+		<div class="section-header primary-color">
+			<h2>TO DO LISTS</h2> <i class="button button-clear icon ion-plus-round right"></i> 
+		</div>
+
+		<div class="to-do-lists">
+			<ion-list>
+				<ion-item ng-repeat="list in lists" ui-sref="dashboard.to-do-list.details({todo: $index})">
+					{{list.name}}<ion-option-button class="progress-button tbutton" ng-click="deleteMessage(message)"><i class="icon ion-trash-a"></i></ion-option-button>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

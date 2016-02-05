@@ -1,0 +1,41 @@
+/*
+    Theme: Purple
+    Primary: #6c509f
+    Secondary: #846ab2
+    Text: #332566
+*/
+
+h1, h2, h3, h4, h5, h6{ color:#332566; }
+hr.ThemeColor { border-color:#332566; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background:#846ab2; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color:#846ab2 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background:#6c509f !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background:#6c509f; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color:#332566; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color:#846ab2 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color:#6c509f; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background:#846ab2; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color:#6c509f; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color:#846ab2; }
+
+.Dictionary .Selector a:hover { color:#6c509f !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color:#332566;}
+.PopUp_Close span { color:#332566;}
+.PopUp_Close:hover { background-color:#332566;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #6c509f !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background:#6c509f !important; color:#fff !important; border-color:6c509f; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color:#6c509f !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color:#6c509f !important;}

@@ -1,0 +1,41 @@
+/*
+    Theme: Orange
+    Primary: #ef7000
+    Secondary: #ff7800
+    Text: #d06414
+*/
+
+h1, h2, h3, h4, h5, h6{ color: #d06414; }
+hr.ThemeColor { border-color: #d06414; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background:#ff7800; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color:#ff7800 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background: #ef7000 !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background: #ef7000; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color: #d06414; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color:#ff7800 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color: #ef7000; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background:#ff7800; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color: #ef7000; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color:#ff7800; }
+
+.Dictionary .Selector a:hover { color: #ef7000 !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color: #d06414;}
+.PopUp_Close span { color: #d06414;}
+.PopUp_Close:hover { background-color: #d06414;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color: #ef7000 !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background: #ef7000 !important; color:#fff !important; border-color: #ef7000; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color: #ef7000 !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color: #ef7000 !important;}

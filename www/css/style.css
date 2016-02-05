@@ -1,0 +1,634 @@
+/* Empty. Add your own CSS if you like */
+.status-bar{
+  background-color: #636363;
+}
+/*Style for tab*/
+.bar.bar-stable{
+  background-color: #636363;
+}
+/*Style for tab text and button*/
+.bar.bar-stable .title, .bar.bar-stable .button.button-clear{
+  color: #fff;
+}
+.primary-color{
+  background-color: #ffa801;
+}
+.primary-background-color{
+  color: #2f2f2f;
+}
+
+/*Styles for menu*/
+.side-menu{
+  background-color: black;
+}
+.side-menu .item-content{
+  background-color: black;
+  color: rgb(255,255,255);
+  display: inline-flex;
+  width: 100%;
+  align-items:center;
+}
+.side-menu .item-content img{height: 30px; margin-right: 10px;}
+.side-menu-list div{
+  background-color: black;
+}
+.side-menu .item{
+  border: none;
+}
+.side-menu-footer{
+  background-color: black;
+}
+/*Grey background for header sections on form inputs*/
+.header{
+  background-color: #d7d7d7;
+  padding: 5px;
+}
+
+/*___Text Area Styles___*/
+textarea{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+/*_____ Form Validation Styles _____*/
+.ValidationMessage p { margin:5px; font-size:11px; color:#5c3131; }
+.ValidationMessage { border:1px solid #c12f2f; background-color:#f8efef; margin:5px 0px; position:relative; left:2px; right:2px; width:100%;}
+
+.ConfirmationMessage { display:none; background:#06ac12; margin:5px 0px 5px 0px; }
+.ConfirmationMessage p {padding:7px 10px; font-size:12px; color:#fff; }
+
+.ValidationMessage p { padding:7px 10px; font-size:12px; color:#fff; }
+.ValidationMessage { background-color:#c12f2f; margin:5px 0px 5px 0px;}
+
+
+
+.CheckboxContainer {  }
+.CheckboxContainer .Checkbox { background:url(/Images/Sprite_Checkbox.png) no-repeat; cursor:pointer; height:22px; width:22px; display:inline-block; margin-right:10px; /*border:1px solid #CCCCCC; border-radius:12px;*/}
+.CheckboxContainer .Checkbox:hover, .CheckboxContainer .Checkbox:focus { background-position:-24px 0;}
+.CheckboxContainer .Checked { background-position:-48px 0;}
+.CheckboxContainer .Checked:hover, .CheckboxContainer .Checked:focus { background-position:-72px 0;}
+.CheckboxContainer input {  margin-right:10px}
+.CheckboxContainer h6 {   display:inline-block; cursor:pointer; position:relative;top:-5px;}
+ 
+.Form { margin-bottom:10px;}
+.Form .Row {margin-bottom:10px; }
+.Form .Row .Label {float:none; width:100%; padding-right:0px; }
+.Form .Row .Label h4 { margin:5px 0px 8px 0px !important; font-size:13pt;}
+.Form .Row .Field {float:none; width:100%; min-height:26px;}
+ 
+.Form hr { margin-bottom:20px;}
+.Form h3 {  margin-top:40px;}
+.Form h3:first-child { margin-top:20px;}
+.Form h4 { color:#515151; }
+ 
+.FieldDescription { color:#777777; font-size:11px; margin-top:10px; line-height:15px !important; }
+ 
+div.Input, span.Input
+{   
+       background-color:#f7f7f8;
+       border:#ededed 1px solid !important;
+       width:100%;
+    display:block;
+    position:relative;
+    -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
+}
+input.Input, div.Input input, span.Input input, textarea.Input, div.Input textarea, span.Input textarea
+{
+    background-color:transparent !important;
+    border:none;
+       font-family: Arial, Sans-Serif, Verdana;
+       font-size:10pt;
+       margin:5px;
+       width:96%;  
+    padding:2px 5px;
+    position:relative !important;
+    resize:none;
+}
+.DatePicker input { width:80% !important;}
+ 
+.DropDownItem { border-bottom:1px solid #d6d6d6; padding:10px; margin:-5px -10px -4px -10px;}
+.DropDownItem h4, .DropDownItem h5{ margin-bottom:0px;}
+.DropDownItem .FieldDescription { margin:0px !important;}
+li:last-child .DropDownItem{ border-bottom:none; }
+ 
+ 
+div.Input .SearchButton, span.Input .SearchButton { background:url(/Images/Sprite_SearchIcon.png); border:none; border-left:#b8b7b8; color:#fff; width:22px; padding-left:7px; padding-right:7px; height:22px; position:absolute; right:5px; top:-2px; z-index:20; cursor:pointer;}
+div.Input .SearchButton:hover, span.Input .SearchButton:hover { background-position:-23px 0;}
+ 
+.Button, .Button_Grey, .Button_DarkGrey, .Button_White, .TextToButton  { padding:8px 15px;  cursor:pointer; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;  font-size:16px; font-family: "museo-sans", Arial, Verdana, Sans-Serif !important;  -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; transition:all .2s ease-in-out; box-shadow:rgba(0,0,0,0.05) 2px 2px 0;  }
+a.Button, a.Button_Grey, a.Button_DarkGrey, a.Button_White, a.TextToButton  { padding:11px 13px 10px 13px; text-align:center;  -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; transition:all .2s ease-in-out; }
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color:#ffb301 !important; color:#fff !important; text-decoration:none; box-shadow:rgba(0,0,0,0.05) 5px 5px 0; }
+.Button_Grey { background-color:#a5a6a6;  color:#fff !important; }
+.Button_DarkGrey { background-color:#8a8989; color:#ffffff !important;  }
+.Button { background-color:#ffa801; color:#fff !important; }
+.Button_White {background-color:#fff;}
+.Button_White:hover {background-color:#fff !important; box-shadow:rgba(0,0,0,0.05) 5px 5px 0;}
+ 
+.Button .TextWithIcon{position:relative; top:-3px; color:#ffffff; margin-right:5px;}
+ 
+.IconInfo {width:16px; height:16px;}
+div.Input .IconInfo, span.Input .IconInfo { cursor:help;  position:absolute; top:4px; right:5px;}
+p .IconInfo, h4 .IconInfo { position:relative; top:4px; margin-right:10px; }
+div.Input .Icon_Checkmark, span.Input .Icon_Checkmark { position:absolute; top:7px; right:10px;} 
+ div.Input .Icon_X, span.Input .Icon_X { position:absolute; top:6px; right:10px;} 
+ 
+.SmallButtonText{font-size:13px !important;}
+.SmallButtonText:hover{ background:#fff; border:1px solid #b8b7b8; color:#38b0b3 !important;}
+ 
+.TextToButton {width:auto; display:block; float:none !important; text-align:center; padding:8px 10px; border-radius:5px 5px 5px 5px;}
+.TextToButton span, .TextToButton img, .TextToButton div { display:none;}
+ 
+/*_____ Theme Picker Styles _____*/
+.ThemePicker .Theme { height:25px; width:16%; margin-right:5%; background:#d6d6d6; float:left; cursor:pointer; }
+.ThemePicker .Theme span { display:none; width:10px; height:10px; float:right; margin:5px 5px 0 0; background:#fff;}
+.ThemePicker .Theme.Selected span, .ThemePicker .Theme:hover span {  display:block; }
+.ThemePicker .Light .Theme:last-child { margin-right:0; }
+.ThemePicker .Medium .Theme:last-child { margin-right:0; }
+.ThemePicker .Dark .Theme:last-child { margin-right:0; }
+.ThemePicker .OrangeLight { background:#ffb301;}
+.ThemePicker .OrangeDark { background:#b93800;}
+.ThemePicker .Orange { background:#ef7000;}
+.ThemePicker .BlueLight { background:#459cc6;}
+.ThemePicker .BlueDark { background:#174764;}
+.ThemePicker .Blue { background:#2b75a2;}
+.ThemePicker .GreenLight { background:#8abc59;}
+.ThemePicker .GreenDark { background:#427411;}
+.ThemePicker .Green { background:#679d32;}
+.ThemePicker .PurpleLight { background:#a16fb0;}
+.ThemePicker .PurpleDark { background:#332566;}
+.ThemePicker .Purple { background:#6c509f;}
+.ThemePicker .RedLight { background:#c5585b;}
+.ThemePicker .RedDark { background:#720f11;}
+.ThemePicker .Red { background:#b72126;}
+
+div .Row.Dark{
+  padding-bottom: 76px;
+}
+ 
+ 
+.ProfilePhotoField { display:table; width:100%; height:50px; border:1px solid #e8e8e8; overflow:hidden;}
+.ProfilePhotoField >.Row { margin:0 !important;}
+.ProfilePhotoField .Image {width:60px;  height:60px; display:table-cell;border-right:1px solid #e8e8e8; text-align:center; vertical-align:middle; background:#f4f4f6; }
+.ProfilePhotoField .Image img { max-width:60px; max-height:60px; height:auto; display:inline-block; }
+.ProfilePhotoField .Control { background:#fff; width:auto; height:60px; padding-left:20px;  display:table-cell; text-align:center; vertical-align:middle; position:relative; }
+/*.ProfilePhotoField .ui-button-text-only .ui-button-text{ padding:15px 10px !important;}*/
+.ProfilePhotoField .ui-widget-content { border:none !important;}
+.ProfilePhotoField .ui-igstartupbrowsebutton { height:60px; position:absolute; right:-2px; top:0; left:0; bottom:-2px; width:auto !important;}
+.ProfilePhotoField button.ui-button-icon-only { width:20px; height:20px; float:right;}
+
+
+
+
+/*Styles for pages with user authentication DARK BG*/
+.userAuth{
+  background-color: #f7f7f7;
+  color: #636363;
+}
+.userAuth select{color: #959595;}
+.userAuth img{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.userAuth h4, .userAuth h3{
+  color:#636363;
+  margin: 0px 0px 12px;
+  font-weight: 600;
+}
+.userAuth .item-input-inset{padding-top: 0px;}
+/*Realtor Sign Up Top Navigation*/
+#navlist{position: relative;}
+#navlist li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: -30px;
+}
+#navlist li, #navlist a{
+  height: 25.58px;
+  width: 44px;
+  display: block;
+}
+#step1{
+  left: 9%;
+}
+#step2{left:33.5%;}
+#step3{left:58%;}
+#step4{left:83%;}
+/*Client sign up top navigation*/
+#clientstep1{
+  left: 33%;
+}
+#clientstep2{left:57.5%;}
+
+.login-page a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.progress-button{
+  background-color:#ffa801;
+  color: #fff;
+}
+.skip-button{
+  background-color: #959595;
+  color: #fff;
+}
+.countrySelector{
+	margin-top:12.5px;
+	overflow: visible;
+	left: 0px;
+}
+.userAuth .item{
+	margin-bottom: 10px;
+}
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  text-align: center;
+  background-color:rgba(0,0,0,0); 
+  color:white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+.inline-select{
+  display: inline-flex;
+  width: 100%;
+}
+.inline-select label{
+  display: inline-flex;
+  width: 50%;
+  height: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.inline-select input:nth-child(2){margin-left: 10px;}
+.inline-select select{
+  top: 5px;
+  left: 15px;
+  padding-right: 0px;
+  padding-left:0px;
+}
+.inline-select label:nth-child(2){margin-left: 10px;}
+.full-width-input{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.theme-selector{
+  margin-bottom: 10px;
+}
+.themeSelect{
+  display: inline-block;
+
+}
+.theme-row{
+  display: flex;
+  justify-content: space-around;
+}
+.theme-row > span{
+  display:inline-block; 
+  margin:5px; 
+  width:73px;
+  height:35px;
+}
+
+/* Realtor Sign Up step 3 */ 
+.realtor-step-3 {
+  @import 'Blue';
+}
+.company-info h4{
+  margin-bottom: 12px;
+} 
+.company-info select{
+  font-size: 20px;
+}
+.company-info span{
+  display:flex;
+  justify-content:space-between;
+}
+.company-info select, .company-info span input{
+  flex:1;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.company-info input{
+  width: 100%;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  height: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*Realtor sign up last step*/
+.sub-type, .billing-info, .billing-address{
+  margin-bottom: 10px;
+}
+.realtor-signup-last-step input, .client-step1 .account-info input, .client-step2 input{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 16px;
+  height: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sub-type select{
+  width: 100%;
+}
+.card-expiry-info{
+  display:inline-flex; 
+  justify-content:space-between; 
+  width:100%;
+}
+.billing-address .location-info span{
+  display: flex;
+  text-align: center;
+}
+.billing-address .location-info span input{
+  margin: 0px 10px 10px 0px;
+}
+.billing-address .location-info span input:nth-child(2){
+  margin-right: 0px;
+}
+.userAuth .btm-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.userAuth .btm-buttons input{
+ width: 49%;
+}
+/*_____Universal Client Styles_____*/
+.tbutton{padding-left: 18px;}
+/*Client step1*/
+.activation-code{
+  margin-bottom: 10px;
+}
+.activation-code i{
+  font-size: 24px;
+  padding-right: 6px;
+}
+.account-info .inline-select input{
+  width: 49.5%;
+}
+.account-info h4{margin-bottom: 10px;}
+
+/*Client sign up step2 */
+.own-or-rent{
+  display: inline-flex;
+  flex-direction:column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Client Dashboard styles */
+.item-complex .item-content{
+  padding-right: 16px;
+}
+.clientDash .scroll-content{
+  
+}
+.clientDash .bar{
+  height: 55px;
+  margin-bottom: 5px;
+}
+.clientDash .bar .title{
+  left: -8px;
+  height: 44px;
+}
+
+/* Client address details style*/
+.address-details .section-header{
+  background-color: #d7d7d7;
+  color: black;
+}
+.address-details{
+  background-color: #F7F7F9;
+  color: black;
+}
+.address-details .section-header{padding: 10px; font-weight: 500;}
+.address-details span{margin-bottom: 10px;}
+.address-information .item-stacked-label{
+  display: inline-block;
+}
+.address-details .section-content .input-label{
+  width: inherit;
+}
+.address-information .span1, .address-information .span2, .important-information .span1, .important-information .span2, .important-information .span3, .additional-information div > span{
+  display: inline-flex;
+  white-space: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.address-information .span2 label, .important-information .span1 label, .important-information .span2 label{
+  width: 33%;
+}
+.address-information .span1 label{width: 49%;}
+.important-information .span3 label{width: 49%;}
+.additional-information span label{width: 49%;}
+.address-information .span1 input, .address-information .span2 input, .important-information .span1 input, .important-information .span2 input, .important-information .span3 input, .additional-information span input{
+  width: 100%;
+}
+.address-information span{
+ 
+}
+.important-information .span1 label:first-child{
+  display: inline-flex;
+  flex-direction: column;
+}
+.important-information label select{height: 34px;}
+.important-information .span1 span{
+  width: 100%;
+}
+.address-details .section-content > label{
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.address-details .btm-buttons button{width: 47%;}
+
+/*Connect With My Agent*/
+.connect-with-my-agent .agent-header{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(70,70,70);
+}
+.connect-with-my-agent .agent-image-container{
+    text-align: center;
+    background-color: rgb(99,99,99);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 33%;
+}
+img.agent-image
+{
+    border-radius: 50%;
+    width: 94%;
+    margin-top: 5px;
+}
+.agent-header h3, .agent-header p{color: white;text-align: center;}
+.agent-header span img{height:30px;margin: 5px;}
+.agent-header span{display: inline-flex;align-items:center;}
+.connect-with-my-agent .agent-info{
+  background-color: rgb(247,247,249);
+}
+.agent-info p{color: black;}
+
+/* Real Estate Dictionary */
+.dictionary-content .search-div{
+  margin-top: 2px;
+}
+.dictionary-content .item{margin:0px;}
+
+/* TO-DO LIsts*/
+.to-do-list .item{margin:0px;}
+
+
+/*----- Realtor Styles -----*/
+.section-header{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+.section-header h2{color: #fff;}
+.section-header i.right, .subsection-header i.right{
+  color:white; 
+  background-color:rgb(157, 157, 157);
+  position:absolute;
+  right:0px;
+  top:0px;
+  border-radius:0px;
+}
+.subsection-header{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.subsection-header i{color: #fff;}
+.subsection-header.two-icons{display: inline-flex}
+.subsection-header i.left{
+    float: left;
+}
+.subsection-header h2{
+    margin-top: 3px;
+    color: #fff;
+}
+.search-bar{
+    display: inline-flex;
+    background-color: #f4f4f4;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .search-bar input{
+    width: 94%;
+    margin:5px 0px 5px 5px;
+    padding: 5px;
+  }
+.view-my-profile, .connect-with-clients, .select-clients{background-color: #f7f7f9;}
+
+  /*_____ View My Profile_____*/
+  #image-row img{
+    height: 20%;
+    width: 20%;
+  }
+  #image-row{display: inline-flex;width: 100%;}
+  #image-row div{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #image-row div input{
+    margin: 0px 0px 10px 10px;
+    height: 45px;
+    padding: 5px;
+  }
+  .view-my-profile .company-info div span + select{width: 100%;}
+
+  /*_____Connect with clients_____*/
+  .select-clients span.header{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .invitation-message :not(h2){
+    margin: 10px;
+  }
+  .invitation-message button{
+    margin:5px;
+    width: 97%;
+  }
+  .invitation-message textarea{
+    box-shadow: .5px .5px .5px .3px  grey;
+    width: 97%;
+  }
+  /*_____Select Clients_____*/
+  .select-clients .section-header{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .select-clients .subsection-header + div span{
+    display: inline-flex;
+    width: 85%;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .select-clients input {
+    border: 1px dotted grey;
+  }
+  .select-clients div button{
+    margin: 0;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 10px 0px 10px;
+  }
+  .select-clients .icon.ion-plus{position: absolute;left: 425px;top: 56px;}
+  .select-clients .or{text-align: center;margin-bottom: 30px;}
+  
+  /*_____My Clients_____*/
+  .client-index{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    right: 0.5%; 
+    background-color: #f4f4f4;
+  }
+  .client-index a:link{text-decoration: none;}
+  .client-list .list{
+    width: 95%;
+  }
+  .client-list .item{
+    margin-bottom: 0px;
+   
+  }
+  .client-list .Button.button{padding-left: 18px;}
+  
+  /*_____Reports_____*/
+  .reports .item{margin-bottom: 0px;}
+
+  /*_____hideable UI Styles_____*/
+  .hideable i{
+    float: right;
+  }
+  .hideable input{
+    margin: 0 auto;
+  }
+  /*_____Make cancel button show in android_____*/
+  .platform-android .action-sheet-cancel {
+    display: block !important;
+}

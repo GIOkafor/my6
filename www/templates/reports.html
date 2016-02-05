@@ -1,0 +1,21 @@
+<ion-view>
+	<ion-content class="reports">
+		<div class="section-header primary-color">
+			<h2>REPORTS</h2>
+		</div>
+
+		<label class="search-bar">
+			<input type="text" placeholder="Search">
+			<i class="button button-icon icon ion-search placeholder-icon"></i>
+		</label>
+				
+		<ion-list>
+			<ion-item ng-repeat="client in clients" ui-sref="realtor-dashboard.report-details({reportdetails: $index})">
+				<h2>{{client.firstName}} </h2>
+				<p>Update: {{client.reports.update}}</p>
+				<ion-option-button class="Button" ng-click="deleteMessage(message)"><i class="icon ion-ios-download"></i></ion-option-button>
+				<ion-option-button class="Button" ng-click="deleteMessage(message)"><i class="icon ion-trash-a"></i></ion-option-button>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

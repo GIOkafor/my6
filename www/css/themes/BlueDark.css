@@ -1,0 +1,41 @@
+/*
+    Theme: Blue (Dark)
+    Primary: #00546c
+    Secondary: #006a88
+    Text: #153253
+*/
+
+h1, h2, h3, h4, h5, h6{ color:#153253; }
+hr.ThemeColor { border-color:#153253; }
+
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Button:hover { background:#006a88; color:#fff !important;}
+.BodyContainer .Dashboard .SideColumn .AddressSelector .Change:hover, .BodyContainer .Dashboard .SideColumn .Open .Change, .BodyContainer .Dashboard .SideColumn .AddressSelector .Change:focus { background-color:#006a88 !important;}
+
+.BodyContainer .Dashboard .SideColumn ul li.Selected, .BodyContainer .Dashboard .SideColumn ul li.Selected a { background:#00546c !important; }
+.BodyContainer .Dashboard .SideColumn ul li ul li:hover a { background:#00546c; }
+
+.StepIndicator span.Selectable:hover, .StepIndicator span.Selected { border-color:#153253; }
+
+.Button_Grey:hover, .Button:hover, .Button_DarkGrey:hover { background-color:#006a88 !important; color:#fff !important;}
+.Button, .primary-color, .section-header { background-color:#00546c; color:#fff !important; }
+.section-header h2{color: #fff;}
+
+.PanelWithList >.List li:hover, .PanelWithList >.List li.Selected { background:#006a88; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span { color:#00546c; }
+.PanelWithList >.Content .Checklist .Item:hover .Controls span:hover {color:#006a88; }
+
+.Dictionary .Selector a:hover { color:#00546c !important; }
+
+.PopUp_Heading h1, .PopUp_Heading h2 { color:#153253;}
+.PopUp_Close span { color:#153253;}
+.PopUp_Close:hover { background-color:#153253;}
+
+
+/* ----------- INFRAGISTICS STYLES ---------------*/
+
+.ui-igcombo-button { color:#00546c !important; }
+
+.ui-igstartupbrowsebutton:hover, .ui-iggrid .ui-state-hover, li.ui-state-hover {background:#00546c !important; color:#fff !important; border-color: #00546c; }
+
+.ui-datepicker .ui-datepicker-calendar  .ui-datepicker-current-day{ background-color:#00546c !important;}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-active { color:#00546c !important;}
